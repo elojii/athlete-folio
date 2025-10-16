@@ -1,0 +1,1 @@
+export const DONATION_AMOUNTS = [5, 10, 25, 50, 100];
