@@ -2,7 +2,8 @@ import { FC } from "react";
 
 import { ATHLETES } from "@/entities/Athlete";
 import { CarouselCard } from "./CarouselCard";
-import { CLUB_MEMBERSHIPS } from "@/entities/Club";
+import { CLUB_MEMBERSHIPS, ClubCard } from "@/entities/Club";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 interface CarouselProps {
     athletes: typeof ATHLETES[number][],
@@ -25,9 +26,6 @@ export const Carousel: FC<CarouselProps> = ({ athletes, clubMembers }) => {
                 <span className="text-sm text-foreground font-medium text-center bg-background/90 dark:bg-background/90 px-3 py-2 rounded-lg">Your story</span>
             </div>
 
-            {stories.map((story, index) => (
-                <CarouselCard key={index} story={story} />
-            ))}
 
             {/* Athletes Stories */}
             {ATHLETES.slice(0, 5).map((athlete, index) => (
@@ -72,8 +70,7 @@ export const Carousel: FC<CarouselProps> = ({ athletes, clubMembers }) => {
                 //         </span>
                 //     </div>
                 // </div>
-
-                <ClubCard key={index} club={club} />
+                <></>
             ))}
         </div>
     </section>
