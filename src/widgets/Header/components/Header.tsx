@@ -21,7 +21,7 @@ export const Header: FC = () => (
                     </span>
                     <div className="text-left">
                         <h1 className="text-4xl lg:text-6xl font-bold text-foreground tracking-tight drop-shadow-sm">
-                            ALEXANDER PETERSON
+                            ALEXANDER PETERSON {process.env.NEXT_PUBLIC_DEPENDING_ON_ENV}
                         </h1>
                         {/* <h2 className="text-4xl font-helvetica lg:text-6xl font-bold text-foreground/80 tracking-tight">
                             ELITE RUNNING
