@@ -1,8 +1,7 @@
 import { Header } from "@/widgets/Header";
-import { TeamStats } from "@/widgets/TeamStats";
+import { TeamStats } from "@/entities/Team";
+import { NavTabs } from "@/widgets/Navigation";
 import { ClubMembership } from "@/widgets/ClubMemberships";
-import { TabNavigation } from "@/features/TabNavigation/components/NavigationTabs";
-import { NavTabs } from "@/widgets/Navigation/components";
 
 export default function Home() {
   return (

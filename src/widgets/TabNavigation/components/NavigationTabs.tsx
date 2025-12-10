@@ -1,6 +1,7 @@
 import { FC } from "react";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { AboutTab } from "@/widgets/AboutTab";
 
 export const TabNavigation: FC = () => {
     return <Tabs defaultValue="about" className="w-full">
@@ -55,19 +56,15 @@ export const TabNavigation: FC = () => {
             </TabsTrigger>
         </TabsList>
 
-        {/* Tabs Content */}
         <TabsContent value="about">
-            {/* <AboutTab /> */}
+            <AboutTab />
         </TabsContent>
 
-        <TabsContent value="events">
-            {/* <EventsTab /> */}
+        {/* <TabsContent value="events">
         </TabsContent>
 
         <TabsContent value="community">
-            {/* <CommunityTab /> */}
-        </TabsContent>
+        </TabsContent> */}
 
-        {/* Add other TabsContent here */}
     </Tabs>
 }

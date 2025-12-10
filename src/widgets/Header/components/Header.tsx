@@ -5,7 +5,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export const Header: FC = () => (
     <header>
-        {/* <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-secondary/5"></div> */}
         <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-primary/10 to-transparent"></div>
         <div className="container mx-auto px-6 lg:px-8 relative z-10">
             <div className="text-left mb-12">
@@ -24,9 +23,13 @@ export const Header: FC = () => (
                         <h1 className="text-4xl lg:text-6xl font-bold text-foreground tracking-tight drop-shadow-sm">
                             ALEXANDER PETERSON
                         </h1>
-                        <h2 className="text-4xl lg:text-6xl font-bold text-foreground/80 tracking-tight">
+                        {/* <h2 className="text-4xl font-helvetica lg:text-6xl font-bold text-foreground/80 tracking-tight">
                             ELITE RUNNING
-                        </h2>
+                        </h2> */}
+
+                        <span className="text-white font-helvetica font-light text-[36px] tracking-[0.2em] relative top-6 whitespace-nowrap">
+                        FANATICAL CRAFTSMANSHIP
+                        </span>
                     </div>
                 </div>
             </div>
