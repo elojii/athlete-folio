@@ -1,4 +1,7 @@
-import { ClubAvatars } from "./components/ClubAvatars"
-import { CLUB_MEMBERSHIPS } from "./constants"
+import { CLUB_MEMBERSHIPS } from "./constants";
+import { ClubAvatars } from "./components/ClubAvatars";
+import { ClubCard, ClubCardProps } from "./components/ClubCard";
 
-export { ClubAvatars, CLUB_MEMBERSHIPS }
+export { CLUB_MEMBERSHIPS, ClubAvatars, ClubCard };
+
+export { type ClubCardProps };

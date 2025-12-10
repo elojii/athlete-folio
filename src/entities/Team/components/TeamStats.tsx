@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 import { TEAM_STATS } from "../constants";
-import { DescriptionCard } from "@/widgets/TeamStats/components/DescriptionCard";
+import { DescriptionCard } from "@/shared";
 
 export const TeamStats: FC = () => (
     <section aria-labelledby="team-stats">

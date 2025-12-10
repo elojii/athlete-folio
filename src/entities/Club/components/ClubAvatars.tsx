@@ -1,9 +1,8 @@
 import { FC } from "react";
 
+import { Avatar } from "@/shared";
 import { CLUB_MEMBERSHIPS } from "..";
-import { Avatar } from "@/shared/components/Avatar";
-
-const EXCESS_MESSAGES = 20
+import { EXCESS_MESSAGES } from "../constants";
 
 export const ClubAvatars: FC = () => (
     <div className="flex items-center gap-4">

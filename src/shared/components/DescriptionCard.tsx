@@ -1,5 +1,5 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { FC } from "react";
+import { Card, CardContent } from "@/components/ui/card";
 
 interface DescriptionCardProps { label: string, value: string }
 
